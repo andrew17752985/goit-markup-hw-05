@@ -557,12 +557,12 @@ border-radius: 0px 0px 4px 4px;
   fill: var(--accent-color);
 }
 
-
+/* 
 .client-icon {
   width: 106px;
   height: 60px;
   fill: var(--icon-color);
-}
+} */
 .client-icon:hover,
 .client-icon:focus{
   fill: var(--accent-color)
