@@ -10,11 +10,13 @@
   --drop-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
   --icon-color: #afb1b8;
 }
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #ececec;
   letter-spacing: 0.03em;
 }
+
 /* ----------утитлиты------------- */
 .visually-hidden {
   position: absolute;
@@ -23,6 +25,7 @@ body {
   height: 1px;
   margin: -1px;
 }
+
 .container {
   width: 1200px;
   margin-left: auto;
@@ -30,6 +33,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
+
 a {
   text-decoration: none;
 }
@@ -51,11 +55,13 @@ h4,
 h5 {
   margin: 0;
 }
+
 ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
+
 img {
   height: auto;
   display: block;
@@ -68,18 +74,21 @@ img {
   margin-bottom: 94px; */
   border-bottom: 1px solid var(--background-color);
 }
+
 .header-container {
   display: flex;
   align-items: center;
 }
+
 .header-nav {
   display: flex;
   align-items: center;
 }
+
 .header-logo {
   color: #000;
- 
 }
+
 .header-icon {
   fill: var(--primary-text-color);
   margin-right: 5px;
@@ -93,17 +102,18 @@ img {
 .header-icon:focus use{
   fill: var(--accent-color);
 }
+
 .header-tel-link:hover .header-icon,
 .header-tel-link:focus .header-icon {
   fill: var(--accent-color);
   color: var(--accent-color);
 }
+
 .header-tel-link{
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 
 .header-link {
   display: block;
@@ -116,26 +126,20 @@ img {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
 }
+
 .header-list {
   display: flex;
 }
+
 .header-item{
   position: relative;
 }
+
 .header-item:not(:last-child) {
   margin-right: 50px;
 }
 
-/* .header-link:focus,
-.header-link:hover,
-.current,
-.header-tel-link:focus,
-.header-tel-link:hover {
-  color: var(--accent-color);
-  
-} */
 .header-link:focus,
 .header-link:hover,
 .current,
@@ -143,10 +147,12 @@ img {
 .header-tel-link:hover {
   color: var(--accent-color);
 }
+
 .header-tel-list {
   display: flex;
   margin-left: auto;
 }
+
 .header-tel-item + .header-tel-item {
   margin-left: 50px;
 }
@@ -186,6 +192,7 @@ img {
   text-transform: uppercase;
   color: var(--white-color);
 }
+
 .hero-btn {
   cursor: pointer;
   font-family: inherit;
@@ -195,7 +202,6 @@ img {
   line-height: 1.87;
   letter-spacing: 0.06em;
   border-radius: 4px;
-  
   border: 1px solid transparent;
   color: var(--white-color);
   background-color: var(--accent-color);
@@ -203,13 +209,12 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: var(--white-color);
   color: var(--accent-color);
   border: 1px solid var(--accent-color);
-  
-  
 }
 
 /* --------------advantages-------------- */
@@ -222,23 +227,29 @@ img {
   height: 120px;
   background-color: var(--backgrond-section-color);
 }
+
 .advantages-icon {
   width: 70px;
   height: 70px;
 }
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
 .work-section{
   padding-top: 0;
 }
+
 .advantages-list {
   display: flex;
 }
+
 .advantages-item:not(:last-child) {
   margin-right: 30px;
 }
+
 .advantages-skills {
   margin-top: 0;
   margin-bottom: 10px;
@@ -248,21 +259,18 @@ img {
   text-transform: uppercase;
   color: var(--dark-text-color);
 }
+
 .advantages-text {
   font-size: 14px;
   line-height: 1.71;
-
   color: var(--primary-text-color);
 }
+
 /* --------------work-------------------- */
+
 .work {
   padding-bottom: 94px;
 }
-/* .works-item{
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-} */
 
 .work-title {
   margin-bottom: 50px;
@@ -272,36 +280,40 @@ img {
   text-align: center;
   color: var(--dark-text-color);
 }
+
 .work-list {
   display: flex;
 }
+
 .work-item:not(:last-child) {
   margin-right: 30px;
 }
+
 .work-item{
   position: relative;
 }
+
 /* --------------command-------------- */
 .social-item{
   width: 44px;
   height: 44px;
 }
+
 .social-list{
   display: flex;
   justify-content: center;
-  /* margin-top: 30px; */
 }
+
 .sicial-icon{
   width: 20px;
   height: 20px;
-  fill: var(--icon-color);
-  
+  fill: var(--icon-color); 
 }
+
 .command {
   background-color: var(--backgrond-section-color);
-  /* padding-top: 94px;
-  padding-bottom: 94px; */
 }
+
 .command-title {
   margin-top: 0;
   margin-bottom: 50px;
@@ -311,23 +323,24 @@ img {
   text-align: center;
   color: var(--dark-text-color);
 }
+
 .command-list {
   display: flex;
   margin-left: -30px;
 }
+
 .command-item {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   background: #FFFFFF;
-/* material shadow v1 */
-
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
-
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+ border-radius: 0px 0px 4px 4px;
 }
+
 .comand-tumb {
   padding: 30px 0;
 }
+
 .command-name {
   margin-bottom: 10px;
   font-weight: 500;
@@ -337,6 +350,7 @@ border-radius: 0px 0px 4px 4px;
 
   color: var(--dark-text-color);
 }
+
 .command-text {
   font-size: 16px;
   line-height: 1.2;
@@ -358,6 +372,7 @@ border-radius: 0px 0px 4px 4px;
   text-align: center;
   color: var(--dark-text-color);
 }
+
 .client-link:hover,
 .client-link:focus {
   border-color: var(--accent-color);
@@ -368,7 +383,6 @@ border-radius: 0px 0px 4px 4px;
   fill: var(--accent-color);
 }
 
-
 .client-icon {
   width: 106px;
   height: 60px;
@@ -377,6 +391,7 @@ border-radius: 0px 0px 4px 4px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
+
 .client-link {
   display: flex;
   justify-content: center;
@@ -389,6 +404,7 @@ border-radius: 0px 0px 4px 4px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
+
 /* ---------------footer------------------ */
 .footer {
   padding-top: 60px;
@@ -427,18 +443,17 @@ border-radius: 0px 0px 4px 4px;
 
 /* -----------portfolio--------------------- */
 /* -----------portfolio filter----------------- */
-/* .filter {
-  padding-top: 94px;
-  padding-bottom: 94px;
-} */
+
 .filter-list {
   margin-bottom: 50px;
   display: flex;
   justify-content: center;
 }
+
 .filter-item:not(:last-child) {
   margin-right: 8px;
 }
+
 .filter-btn {
   cursor: pointer;
   font-family: inherit;
@@ -480,13 +495,12 @@ border-radius: 0px 0px 4px 4px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.works-item:hover  {
- 
-}
+
 .works-tumb {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
 }
+
 .works-title {
   font-weight: 700;
   font-size: 18px;
@@ -495,18 +509,22 @@ border-radius: 0px 0px 4px 4px;
   color: var(--dark-text-color);
   margin-bottom: 4px;
 }
+
 .works-text {
   font-size: 16px;
   line-height: 1.87;
 
   color: var(--primary-text-color);
 }
+
 .works-content {
   outline: 1px solid var(--background-color);
 }
+
 .client {
   padding: 94px 0;
 }
+
 .client-title {
   margin-top: 0;
   margin-bottom: 50px;
@@ -516,6 +534,7 @@ border-radius: 0px 0px 4px 4px;
   text-align: center;
   color: var(--dark-text-color);
 }
+
 .client-list {
   display: flex;
   justify-content: center;
@@ -523,8 +542,6 @@ border-radius: 0px 0px 4px 4px;
 
 .client-item:not(:last-child) {
   margin-right: 30px;
-
-  /* ------------не понятный нижний отступ под иконками !!!-------------- */
 }
 
 .client-link {
@@ -550,12 +567,6 @@ border-radius: 0px 0px 4px 4px;
   fill: var(--accent-color);
 }
 
-/* 
-.client-icon {
-  width: 106px;
-  height: 60px;
-  fill: var(--icon-color);
-} */
 .client-icon:hover,
 .client-icon:focus{
   fill: var(--accent-color)
@@ -628,10 +639,7 @@ border-radius: 0px 0px 4px 4px;
   background-color: #ffffff10;
 }
 
-/* .social-list {
-  display: flex;
-  justify-content: center;
-} */
+
 
 .social-item {
   background-color: rgba(255, 255, 255, 0.1);
@@ -669,9 +677,9 @@ border-radius: 0px 0px 4px 4px;
 
 .social-link:hover .sicial-icon,
 .social-link:focus .sicial-icon {
-  /* background-color: var(--white-color); */
+  
   fill: var(--white-color);
-  /* ---------------------------не работает !!!!!!!!!!---------- */
+ 
 }
 .backdrop {
   position: fixed;
