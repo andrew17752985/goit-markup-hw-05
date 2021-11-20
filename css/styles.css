@@ -81,10 +81,12 @@ img {
  
 }
 .header-icon {
-  /* width: 16px;
-  height: 12px; */
   fill: var(--primary-text-color);
   margin-right: 10px;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 .header-tel-item:hover .header-icon,
 .header-tel-item:focus .header-icon {
