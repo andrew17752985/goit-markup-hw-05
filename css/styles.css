@@ -86,7 +86,11 @@ img {
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 
+}
+.header-icon:focus use{
+  fill: var(--accent-color);
 }
 .header-tel-item:hover .header-icon,
 .header-tel-item:focus .header-icon {
