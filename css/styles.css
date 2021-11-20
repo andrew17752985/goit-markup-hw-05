@@ -82,13 +82,14 @@ img {
 }
 .header-icon {
   fill: var(--primary-text-color);
-  margin-right: 10px;
+  margin-right: 5px;
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  
-
+  display: inline-block;
+  vertical-align: middle;
 }
+
 .header-icon:focus use{
   fill: var(--accent-color);
 }
@@ -151,8 +152,6 @@ img {
 }
 
 .header-tel-link {
-  align-items: center;
-  display: flex;
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
