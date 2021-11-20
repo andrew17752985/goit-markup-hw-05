@@ -89,6 +89,7 @@ img {
 .header-tel-item:hover .header-icon,
 .header-tel-item:focus .header-icon {
   fill: var(--accent-color);
+  color: var(--accent-color);
 }
 .header-tel-link{
   transition-property: color;
@@ -120,14 +121,14 @@ img {
   margin-right: 50px;
 }
 
-.header-link:focus,
+/* .header-link:focus,
 .header-link:hover,
 .current,
 .header-tel-link:focus,
 .header-tel-link:hover {
   color: var(--accent-color);
   
-}
+} */
 .header-tel-list {
   display: flex;
   margin-left: auto;
