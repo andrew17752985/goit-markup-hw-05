@@ -733,8 +733,8 @@ border-radius: 0px 0px 4px 4px;
 .backdrop-icon {
   fill: #000;
 }
-.backdrop-icon:hover,
-.backdrop-icon:focus {
+.backdrop-close-btn:hover .backdrop-icon,
+.backdrop-close-btn:focus .backdrop-icon {
   fill: var(--accent-color);
 
 }
