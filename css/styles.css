@@ -412,8 +412,8 @@ img {
   padding-bottom: 60px;
   background-color: var(--footer-color);
 }
-.logo link{
-
+.footer-sicial-icon{
+  fill: var(--white-color);
 }
 
 .footer-address {
