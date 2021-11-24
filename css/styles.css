@@ -90,6 +90,7 @@ img {
 }
 
 .header-icon {
+  height: 16px;
   fill: var(--primary-text-color);
   margin-right: 5px;
   transition-property: fill;
