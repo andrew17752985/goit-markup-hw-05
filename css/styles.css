@@ -446,6 +446,9 @@ img {
 
   color: var(--footer-connection-text-color);
 }
+.footer-social-link .footer-sicial-icon{
+  fill: var(--white-color);
+}
 
 /* -----------portfolio--------------------- */
 /* -----------portfolio filter----------------- */
